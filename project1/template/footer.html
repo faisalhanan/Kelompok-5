@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navbar Responsif</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .navbar-toggler {
+      border-color: #ffffff;
+    }
+    .ml-auto {
+      margin-left: auto !important;
+    }
+    .navbar-nav .nav-link {
+      transition: background-color 0.3s;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+      background-color: yellow;
+    }
+    .footer {
+        background-color: #19345E;
+    }
+    .text {
+        color: #19345E;
+    }
+  </style>
+</head>
+<body>
+    <!-- start navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/project1/aset/altera.png" alt="Deskripsi gambar">
+                </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-info" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning rounded-pill px-5 text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- body -->
+    <!-- end body -->
+
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-4">
+              <img src="/project1/aset/altera.png" alt="Logo Alterra" class="footer-logo">
+            </div>
+            <div class="col-md-4 text-center">
+              <h5 class="text-white">Social Media</h5>
+              <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/alterra.academy/"><img src="/project1/aset/facebook.png" alt="Facebook" class="social-icon mr-3"></a>
+                <a href="https://twitter.com/AlterraA"><img src="/project1/aset/twitter.png" alt="Twitter" class="social-icon mr-3"></a>
+                <a href="https://www.instagram.com/alterra.academy/"><img src="/project1/aset/instagram.png" alt="Instagram" class="social-icon mr-3"></a>
+                <a href="https://www.linkedin.com/company/alterraindonesia/"><img src="/project1/aset/linkedin.png" alt="LinkedIn" class="social-icon mr-3"></a>
+              </div>
+            </div>
+            <div class="col-md-4 text-right text-white">
+              <p> 2023 Your Company. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- end footer -->
+    </div>
+    </body>
+</html>
