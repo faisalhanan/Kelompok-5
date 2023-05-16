@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navbar Responsif</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/project1/css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/project1/aset/altera.png" alt="Deskripsi gambar">
+                </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link " style="color: #19345E;" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #19345E;" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #19345E;" href="#">Team</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" style="color: #19345E;" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <button type="submit"  class="rounded-pill px-5 py-2 border-0 text-white" style="background-color: #F47522;">Contact
+                      </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- body -->
+    <div class="container">
+        <h1 class="text-center mt-5" style="color: #19345E;">
+            <span style="color: #F47522;" >-</span>GET IN TOUCH <span style="color: #F47522;">-</span>
+          </h1>
+            <div class="d-flex ">
+                <div class="phone flex-row align-items-center justify-content-center">
+                    <div class="col-4">
+                        <div style="color: #19345E;">
+                            Phone  
+                        </div>
+                    </div>
+                        <div class="col align-items-center justify-content-center">
+                        <img src="/project1/aset/phone.png" class="mr-3" alt="">+62 21 909 7890
+                        </div>
+                      <div class="col mt-3">
+                        <span  style="color: #19345E;">
+                            Email 
+                        </span>
+                        <div class="phone flex-row align-items-center justify-content-center">
+                        <img src="/project1/aset/envelope.png" class="mr-3" alt="">info@alterra.id
+                      </div>
+                      </div>
+                      
+                      <div class="col mt-3">
+                        <span  style="color: #19345E;">
+                            Website 
+                        </span>
+                        <div class="phone flex-row align-items-center justify-content-center">
+                        <img src="/project1/aset/browser (3).png" class="mr-3" alt=""> https://www.alterra.id/
+                      </div>
+                      </div>
+                      <div class="col mt-3">
+                        <span  style="color: #19345E;">
+                            Social Profile 
+                        </span>
+                        <div class="phone flex-row align-items-center justify-content-center">
+                        <div class="d-flex justify-content-center mt-1">
+                          <a href="https://www.facebook.com/alterra.academy/"><img src="/project1/aset/facebook.png" alt="Facebook" class="social-icon mr-3"></a>
+                          <a href="https://twitter.com/AlterraA"><img src="/project1/aset/twitter.png" alt="Twitter" class="social-icon mr-3"></a>
+                          <a href="https://www.instagram.com/alterra.academy/"><img src="/project1/aset/instagram.png" alt="Instagram" class="social-icon mr-3"></a>
+                          <a href="https://www.linkedin.com/company/alterraindonesia/"><img src="/project1/aset/linkedin.png" alt="LinkedIn" class="social-icon mr-3"></a>
+                        </div>
+                      </div>
+                      </div>
+                      <br></br>
+                </div>
+                <form class="justify-content-center align-content-center mx-auto">
+                  <div class="">
+                        If you have any suggestion, project or even you want to say, Hello.. 
+                    <p>
+                      Please fill out the form below and I will reply you shortly.
+                    </p>
+                  </div>
+                  <div class="form-group">
+                    <label for="fullname">Full Name<span style="color: red;"> *</span></label>
+                    <p><input style="width: 500px;" type="text" id="fullname" placeholder="Winda Pramesti" name="fullname" required></p>
+                  </div>
+                  <div class="form-group ">
+                    <label for="email">Email Address <span style="color: red;"> *</span></label>
+                    <p><input style="width: 500px;" type="text" id="email" placeholder="Your Email" name="email" required></p>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone Number <span style="color: red;"> *</span></label>
+                    <p><input style="width: 500px;" type="text" id="phone" placeholder="Your Phone Number" name="phone" required></p>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message <span style="color: red;"> *</span></label>
+                    <p><textarea style="width: 500px; height: 200px;" id="message" placeholder=" Your Message ..." name="message" required></textarea></p>
+                  </div>
+                  <button type="submit"  class="rounded-pill px-3" style="background-color: #F47522;">
+                    <img src="/project1/aset/send-mail.png" height="15px" width="25px"  alt=""><span class="text-light"> Send Message</span> 
+                  </button>
+                </form>
+            </div>
+    </div>
+    <!-- end body -->
+
+    <!-- start footer -->
+    <footer class="footer mt-5 ">
+        <div class="container py-lg-5">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-4">
+              <img src="/project1/aset/alta-putih.png" width="100px" height="50px" alt="Logo Alterra" class="footer-logo">
+            </div>
+            <div class="col-md-4 text-center">
+              <h5 class="text-white">Social Media</h5>
+              <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/alterra.academy/"><img src="/project1/aset/ic_fb.png" alt="Facebook" class="social-icon mr-3"></a>
+                <a href="https://twitter.com/AlterraA"><img src="/project1/aset/ic_twitter.png" alt="Twitter" class="social-icon mr-3"></a>
+                <a href="https://www.instagram.com/alterra.academy/"><img src="/project1/aset/ic_ig.png" height="20px" alt="Instagram" class="social-icon mr-3"></a>
+                <a href="https://www.linkedin.com/company/alterraindonesia/"><img src="/project1/aset/ic_linkedin.png" alt="LinkedIn" class="social-icon mr-3"></a>
+              </div>
+            </div>
+            <div class="col-md-4 text-right text-white">
+              <p> Copyright © 2019 Alterra</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- end footer -->
+    </div>
+</body>
+</html>

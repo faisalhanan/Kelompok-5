@@ -1,0 +1,35 @@
+    .container{
+        font-family: Arial, Helvetica, sans-serif ;
+        color: #19345E;
+    }
+    .navbar-toggler {
+      border-color: #ffffff;
+    }
+    .ml-auto {
+      margin-left: auto;
+    }
+    .navbar-nav .nav-link {
+      transition: background-color 0.5s;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+      background-color: #F47522;
+    }
+    .footer {
+        background-color: #19345E;
+    }
+    .text {
+        color: #19345E;
+    }
+    .phone{
+        text-align: left;
+    }
+    .navbar-nav {
+        color: #19345E;
+    }
+    .btn-contact{
+        color: #F47522;
+    }
+    
+    
+    
