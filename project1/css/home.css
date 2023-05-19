@@ -1,0 +1,327 @@
+
+#hero {
+    background-color:#EDF6FF;
+    height: 743px;
+    width: 1233;
+}
+.hero-img {
+    width: 420px;
+    height: 420px;
+}
+.hero-tagline h3{
+    color:#19345E; 
+    margin-left: -100px;
+    margin-bottom: 31;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Mulish', sans-serif;
+}  
+
+.hero-tagline h1 {
+    color: #19345E;
+    margin-left: -100px;
+    font-size: 45px;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.hero-tagline p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #19345E;
+    font-weight: 80px;
+    margin-left: -100px;
+}
+
+.hero-tagline-color {
+    color: #F47522;
+}
+/* Tampilan responsif untuk tablet */
+@media (max-width: 991px){
+#hero {
+    background-color:#EDF6FF;
+    height: 657px;
+    width: 991px;
+}
+.hero-img {
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    }
+.hero-tagline {
+    margin-top: -550px;
+    margin-left: 500px ;
+}
+.hero-tagline h3{
+    color:#19345E; 
+    margin-bottom: 31;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Mulish', sans-serif;
+}  
+.hero-tagline h1 {
+    color: #19345E;
+    margin-left: -100px;
+    font-size: 45px;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+}
+.hero-tagline p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #19345E;
+    font-weight: 80px;
+    margin-left: -100px;
+}
+.hero-tagline-color {
+    color: #F47522;
+}
+}
+.more {
+    top: 573px;
+    left: 617px;
+    width: 230px;
+    height: 40px;
+    background: #F47522 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: -100px;
+}
+.more img {
+    margin-right:5px;
+    top: 583px;
+    left: 65px;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/sport-team.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.layout {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 100px;
+    opacity: 1;
+
+}
+.ring {
+    background-color: #F47522;
+    width: 50px;
+    padding:10px
+}
+.vl {
+    border-left: 1px solid #AAAAAA;
+    height: 50px;
+}
+
+/*About*/
+
+#about {
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.teksline {
+    position: relative;
+    color: #19345E;
+    margin-top: 50px;
+}
+.d-flex {
+    position: relative;
+    color: #19345E;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.teksline:before,
+.teksline:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    border-bottom: solid #F47522;
+    border-bottom-width: 2px;
+}
+  
+.teksline:before {
+    right: 100%;
+    margin-right: 10px;
+}
+  
+.teksline:after {
+    left: 100%;
+    margin-left: 10px;
+}
+.image-overlay {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+  
+.overlay-image {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+  
+.overlay-color {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #19345ef6;
+   opacity: 0.7;
+}
+  
+.overlay-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-family:'Mulish', sans-serif;
+}
+/* Tampilan responsif untuk tablet */
+@media (max-width: 991px){
+.overlay-image {
+    width: 100%;
+    height: 500px;
+}
+}
+
+/*MEET OUR TEAM*/
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+ 
+.image {
+    width: 250px;
+    height: auto;
+}
+.image2 {
+    width: 250px;
+    height: auto;
+    box-shadow: 1px 7px 14px -3px rgba(0,0,0,0.66);
+}
+.image {
+    width: 250px;
+    height: auto;
+   
+}
+  
+.border-custom {
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 300px;
+    border: 10px solid #F47522;
+    
+}
+.border-middle {
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 300px;
+    border: 10px solid #19345E;
+    
+}
+  
+.teksName{
+    margin-top: 35px;
+    display: grid;
+    place-items: center;
+    left: 50%;
+}
+
+.teksName span{
+    color: #F47522;
+    
+}
+.teksName p{
+    color:#19345E;
+    
+}
+.teksNameMidel{
+    margin-top: 35px;
+    display: grid;
+    place-items: center;
+    left: 50%;
+}
+
+.teksNameMidel span{
+    color: #F47522;
+    
+}
+.teksNameMidel p{
+    color:#19345E;
+    
+}
+/* Tampilan responsif untuk tablet */
+@media (max-width: 991px){
+    .middle{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .image2 {
+        width: 250px;
+        height: auto;
+       }
+    .border-middle {
+        position: absolute;
+        margin-top: 30px;
+        margin-right: 40px;
+        width: 250px;
+        height: 300px;
+        border: 10px solid #19345E;
+        
+    }
+    .teksNameMidel{
+        margin-top: 35px;
+        display: grid;
+        place-items: center;
+        left: 50%;
+    }
+    
+    .teksNameMidel span{
+        color: #F47522;
+        
+    }
+}
+
+  
+#our-team{
+    background-image: url(/project1/aset/ornament_batik.png);
+    background-size: 200px;
+    background-position: start;
+    background-repeat: no-repeat;
+}
+
+/*LOOG*/
+#blogs {
+    margin-top: 40px;
+}
+.card {
+    margin-top: 40px;
+    border: none;
+}
